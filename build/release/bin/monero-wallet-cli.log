@@ -1,0 +1,15 @@
+2017-Jan-27 13:26:08.574532 Monero 'Wolfram Warptangent' (v0.10.0.0-release)
+2017-Jan-27 13:26:08.574590 Setting log level = 0
+2017-Jan-27 13:26:08.574616 default_log: ./monero-wallet-cli.log
+2017-Jan-27 13:26:08.576993 Logging at log level 0 to /home/yorozuya/monero/build/release/bin/./monero-wallet-cli.log
+2017-Jan-27 13:26:27.242950 ERROR /home/yorozuya/monero/contrib/epee/include/net/http_client.h:869 failed to connect localhost:18081
+2017-Jan-27 13:26:27.333098 Error: wallet failed to connect to daemon: http://localhost:18081. Daemon either is not started or wrong port was passed. Please make sure daemon is running or restart the wallet with the correct daemon address.
+2017-Jan-27 13:26:27.333232 Error: wallet failed to connect to daemon: http://localhost:18081. Daemon either is not started or wrong port was passed. Please make sure daemon is running or restart the wallet with the correct daemon address.
+2017-Mar-09 16:27:38.457986 Monero 'Wolfram Warptangent' (v0.10.0.0-release)
+2017-Mar-09 16:27:38.458227 Setting log level = 0
+2017-Mar-09 16:27:38.458246 default_log: ./monero-wallet-cli.log
+2017-Mar-09 16:27:38.458289 Logging at log level 0 to /home/yorozuya/monero/build/release/bin/./monero-wallet-cli.log
+2017-Mar-09 16:28:14.669541 Monero 'Wolfram Warptangent' (v0.10.0.0-release)
+2017-Mar-09 16:28:14.669619 Setting log level = 0
+2017-Mar-09 16:28:14.669636 default_log: ./monero-wallet-cli.log
+2017-Mar-09 16:28:14.669677 Logging at log level 0 to /home/yorozuya/monero/build/release/bin/./monero-wallet-cli.log

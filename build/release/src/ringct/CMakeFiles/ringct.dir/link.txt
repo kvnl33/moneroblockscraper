@@ -1,0 +1,2 @@
+gcc-ar qc libringct.a  CMakeFiles/obj_ringct.dir/rctOps.cpp.o CMakeFiles/obj_ringct.dir/rctSigs.cpp.o CMakeFiles/obj_ringct.dir/rctTypes.cpp.o CMakeFiles/obj_ringct.dir/rctCryptoOps.c.o
+gcc-ranlib libringct.a

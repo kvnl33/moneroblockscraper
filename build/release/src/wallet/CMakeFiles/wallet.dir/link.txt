@@ -1,0 +1,2 @@
+gcc-ar qc ../../lib/libwallet.a  CMakeFiles/obj_wallet.dir/password_container.cpp.o CMakeFiles/obj_wallet.dir/wallet2.cpp.o CMakeFiles/obj_wallet.dir/wallet_args.cpp.o CMakeFiles/obj_wallet.dir/wallet_rpc_server.cpp.o CMakeFiles/obj_wallet.dir/api/wallet.cpp.o CMakeFiles/obj_wallet.dir/api/wallet_manager.cpp.o CMakeFiles/obj_wallet.dir/api/transaction_info.cpp.o CMakeFiles/obj_wallet.dir/api/transaction_history.cpp.o CMakeFiles/obj_wallet.dir/api/pending_transaction.cpp.o CMakeFiles/obj_wallet.dir/api/utils.cpp.o
+gcc-ranlib ../../lib/libwallet.a

@@ -1,0 +1,2 @@
+gcc-ar qc libp2p.a  CMakeFiles/obj_p2p.dir/network_throttle-detail.cpp.o CMakeFiles/obj_p2p.dir/data_logger.cpp.o CMakeFiles/obj_p2p.dir/connection_basic.cpp.o CMakeFiles/obj_p2p.dir/network_throttle.cpp.o
+gcc-ranlib libp2p.a

@@ -1,0 +1,2 @@
+gcc-ar qc libdaemonizer.a  CMakeFiles/obj_daemonizer.dir/posix_fork.cpp.o
+gcc-ranlib libdaemonizer.a

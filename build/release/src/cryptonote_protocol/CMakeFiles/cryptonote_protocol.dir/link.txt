@@ -1,0 +1,2 @@
+gcc-ar qc libcryptonote_protocol.a  CMakeFiles/obj_cryptonote_protocol.dir/cryptonote_protocol_handler-base.cpp.o
+gcc-ranlib libcryptonote_protocol.a

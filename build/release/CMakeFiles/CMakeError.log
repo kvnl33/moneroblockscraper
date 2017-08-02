@@ -1,0 +1,111 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/frank/monero-c19fd66f9fd1dbc403fcfcc27e5bb295c99760f3/build/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_77390/fast"
+make[1]: Entering directory '/home/frank/monero-c19fd66f9fd1dbc403fcfcc27e5bb295c99760f3/build/release/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_77390.dir/build.make CMakeFiles/cmTC_77390.dir/build
+make[2]: Entering directory '/home/frank/monero-c19fd66f9fd1dbc403fcfcc27e5bb295c99760f3/build/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_77390.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_77390.dir/CheckSymbolExists.c.o   -c /home/frank/monero-c19fd66f9fd1dbc403fcfcc27e5bb295c99760f3/build/release/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_77390
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77390.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_77390.dir/CheckSymbolExists.c.o  -o cmTC_77390 -rdynamic 
+CMakeFiles/cmTC_77390.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_77390.dir/build.make:97: recipe for target 'cmTC_77390' failed
+make[2]: *** [cmTC_77390] Error 1
+make[2]: Leaving directory '/home/frank/monero-c19fd66f9fd1dbc403fcfcc27e5bb295c99760f3/build/release/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_77390/fast' failed
+make[1]: *** [cmTC_77390/fast] Error 2
+make[1]: Leaving directory '/home/frank/monero-c19fd66f9fd1dbc403fcfcc27e5bb295c99760f3/build/release/CMakeFiles/CMakeTmp'
+
+File /home/frank/monero-c19fd66f9fd1dbc403fcfcc27e5bb295c99760f3/build/release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/yorozuya/monero-test_analysis/build/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5f647/fast"
+make[1]: Entering directory '/home/yorozuya/monero-test_analysis/build/release/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_5f647.dir/build.make CMakeFiles/cmTC_5f647.dir/build
+make[2]: Entering directory '/home/yorozuya/monero-test_analysis/build/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5f647.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_5f647.dir/CheckSymbolExists.c.o   -c /home/yorozuya/monero-test_analysis/build/release/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_5f647
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f647.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_5f647.dir/CheckSymbolExists.c.o  -o cmTC_5f647 -rdynamic 
+CMakeFiles/cmTC_5f647.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_5f647.dir/build.make:97: recipe for target 'cmTC_5f647' failed
+make[2]: *** [cmTC_5f647] Error 1
+make[2]: Leaving directory '/home/yorozuya/monero-test_analysis/build/release/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5f647/fast' failed
+make[1]: *** [cmTC_5f647/fast] Error 2
+make[1]: Leaving directory '/home/yorozuya/monero-test_analysis/build/release/CMakeFiles/CMakeTmp'
+
+File /home/yorozuya/monero-test_analysis/build/release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/yorozuya/monero/build/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_174c0/fast"
+make[1]: Entering directory '/home/yorozuya/monero/build/release/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_174c0.dir/build.make CMakeFiles/cmTC_174c0.dir/build
+make[2]: Entering directory '/home/yorozuya/monero/build/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_174c0.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_174c0.dir/CheckSymbolExists.c.o   -c /home/yorozuya/monero/build/release/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_174c0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_174c0.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_174c0.dir/CheckSymbolExists.c.o  -o cmTC_174c0 -rdynamic 
+CMakeFiles/cmTC_174c0.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_174c0.dir/build.make:97: recipe for target 'cmTC_174c0' failed
+make[2]: *** [cmTC_174c0] Error 1
+make[2]: Leaving directory '/home/yorozuya/monero/build/release/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_174c0/fast' failed
+make[1]: *** [cmTC_174c0/fast] Error 2
+make[1]: Leaving directory '/home/yorozuya/monero/build/release/CMakeFiles/CMakeTmp'
+
+File /home/yorozuya/monero/build/release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

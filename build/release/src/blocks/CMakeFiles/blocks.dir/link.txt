@@ -1,0 +1,2 @@
+gcc-ar qc libblocks.a  CMakeFiles/blocks.dir/blockexports.c.o blocks.o testnet_blocks.o
+gcc-ranlib libblocks.a

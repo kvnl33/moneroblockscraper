@@ -1,0 +1,2 @@
+gcc-ar qc libotshell_utils.a  CMakeFiles/otshell_utils.dir/ccolor.cpp.o CMakeFiles/otshell_utils.dir/runoptions.cpp.o CMakeFiles/otshell_utils.dir/windows_stream.cpp.o CMakeFiles/otshell_utils.dir/utils.cpp.o
+gcc-ranlib libotshell_utils.a
